@@ -1,0 +1,125 @@
+/* /C:/Users/cerative/Desktop/react/my-app/src/Compoents/navbar.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color:green;
+    overflow: hidden;
+    margin:10px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60px;
+    display: flex;
+    border: 2px solid black;
+transition: all 1s;
+}
+.container:hover {
+    background-color: blueviolet;
+    
+}
+
+.logo{    
+    background-image: url(reactlogo.png);
+    background-size: cover;
+    height: 40px;
+    width: 42px;
+padding: 2px;
+transition: all 1s;
+}
+.logo:hover{
+border: 1px solid white;
+height: 42px;
+}
+.navbar{
+    padding-left: 40px; 
+    /* position: relative;
+    bottom: 667px;
+    background-color:none; */
+    /* left: 50px; */
+
+}
+
+.listitems {
+    display: flex;
+}
+
+.listitems ul{
+    display: flex;
+
+}
+.listitems li {
+    list-style-type: none;
+}
+.listitems ul a {
+     text-decoration: none;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    /* word-spacing: 40px; */
+    font-size: 20px;
+padding: 0 30px 0 30px;
+
+}
+.listitems a:hover {
+    text-decoration: underline solid gray;
+    text-underline-offset: 8px;
+    background-color: lightslategray;
+        border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+    font-style: italic;
+    transition: all 1s;
+
+}
+.searchbox{
+    /* margin-left: 150px;*/
+    margin-top: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius:5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.searchbox input{
+    background: transparent;
+    flex: 1;
+width: 250;
+height: 30px;
+outline: none;
+padding:5px;
+border-radius: 5px;
+background-color: none;
+border: none;
+}
+/* .searchbox :focus{
+    border: 3px solid green;
+    outline: none;
+} */
+.searchbox input::placeholder{
+background-color: none;
+}
+.searchbox button {
+    border:none ;
+border-radius: 4px;
+    background-color: orangered;    padding: 3px;
+    border-left:2px solid black;
+
+}
+.searchbox:hover{
+    border: 2px solid green;
+}
+.background {
+    background-image: url(download.jpg);
+    background-size: cover;
+    height: 600px;
+    
+    margin-top: 10px;
+}
+ {
+    
+}
